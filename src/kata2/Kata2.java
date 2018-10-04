@@ -20,7 +20,6 @@ public class Kata2 {
         System.out.println("\nContenido del mapa (Clave ==> Valor)");
         for (Map.Entry<Integer, Integer> entry : histogram.entrySet()) {
             System.out.println( entry.getKey() + " ===> " + entry.getValue());
-            
         } 
     }
     
