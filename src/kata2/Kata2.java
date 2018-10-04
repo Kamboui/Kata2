@@ -9,7 +9,7 @@ public class Kata2 {
         int data[] = {4,5,6,2,3,5,4,6,2,3,5,4,6,6,6};
         Map<Integer, Integer> histogram = new HashMap<Integer, Integer>();
         
-        for(int i=0; i<data.length;i++){
+        for(int i : data){
             try{
                 histogram.put(data[i], histogram.get(data[i])+1);
             } catch(Exception e){
